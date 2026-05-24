@@ -1,0 +1,12 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^ssh volumio@oliver-player\\.local \"systemctl restart volumio\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^ssh volumio@oliver-player\\.local \"volumio vrestart\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
