@@ -1,9 +1,9 @@
 [submodule "volumio-os"]
-	path = volumio-os
+	path = os
 	url = https://github.com/budzworthy/volumio-os
 [submodule "volumio-plugins-sources-bookworm"]
-	path = volumio-plugins-sources-bookworm
+	path = plugins
 	url = https://github.com/budzworthy/volumio-plugins-sources-bookworm
 [submodule "volumio3-backend"]
-	path = volumio3-backend
+	path = backend
 	url = https://github.com/budzworthy/volumio3-backend.git
