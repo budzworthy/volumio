@@ -1,0 +1,18 @@
+{
+  "name": "volumio-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "be:start": "npm run start --workspace volumio3-backend",
+    "be:lint": "npm run lint --workspace volumio3-backend",
+    "be:test": "npm run test --workspace volumio3-backend",
+    "deploy-be": "bash ./scripts/deploy-be.sh",
+    "deploy-plugin": "bash ./scripts/deploy-plugin.sh",
+    "setup-device": "bash ./scripts/setup-device.sh"
+  },
+  "workspaces": [
+    "os",
+    "plugins",
+    "backend"
+  ]
+}
